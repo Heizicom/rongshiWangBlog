@@ -1,0 +1,17 @@
+{
+  "name": "rongshiblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog"
+  },
+  "author": "Rongshi Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.13"
+  }
+}
